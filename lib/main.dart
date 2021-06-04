@@ -5,4 +5,6 @@ void main(List<String> arguments) {
   print(pessoa.nome);
   print(pessoa.idade);
   print(pessoa.sexo);
+  pessoa.otherNome = "Oliveira";
+  print(pessoa.otherNome);
 }
