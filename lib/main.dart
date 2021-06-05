@@ -5,6 +5,9 @@ void main(List<String> arguments) {
   print(pessoa.nome);
   print(pessoa.idade);
   print(pessoa.sexo);
-  pessoa.otherNome = "Oliveira";
-  print(pessoa.otherNome);
+
+  print(pessoa.peso);
+  print(pessoa.altura);
 }
+//pessoa.otherNome = "Oliveira";
+//print(pessoa.otherNome);
